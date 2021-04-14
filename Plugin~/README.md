@@ -114,7 +114,7 @@ cmake --build build --config Release --target WebRTCPlugin
 cmake -D CMAKE_C_COMPILER="clang"         \
       -D CMAKE_CXX_COMPILER="clang++"     \
       -D CMAKE_CXX_FLAGS="-stdlib=libc++" \
-      -B build
+      -B build \
       .
 cmake --build build --config Release --target WebRTCPlugin
 ```
